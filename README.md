@@ -11,6 +11,8 @@ Use RVM to run different versions of Ruby. Use RVM's gemsets to create packages 
 ##### Use specific ruby version and gemset
 `rvm use 2.2.7@gemset_name`
 
+## Useful Rails Commands
+
 ### Rake
 ##### View all routes
 `$ rake routes`
