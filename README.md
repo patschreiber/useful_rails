@@ -30,6 +30,12 @@ Use RVM to run different versions of Ruby. Use RVM's gemsets to create packages 
 `$rails s`
 ##### Start Rails console
 `$ rails c`
+##### View installed gem code
+`$ bundle open <gem name>`
+`$ bundle show <gem name>`
+###### If you want a local copy of a sourced gem
+###### https://guides.rubygems.org/command-reference/#gem_unpack
+`$ gem unpack <gem name>`
 
 ### Rails helpers
 ##### Gets the whole URI (e.g. https://localhost:3000/sign-up)
